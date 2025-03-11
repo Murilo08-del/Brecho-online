@@ -5,45 +5,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Brecho-online</title>
+    <title>Brecho Online</title>
 </head>
-
+ 
 <body>
     <header>
         <nav class="navbar">
-            <ul>
-                <li><a href="#produtos">Produto</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+            <div class="flexivel">
+                <div class="titulo">
+                    <div class="imagem1">
+                        <img src="LOGO BRECHÓ.jpg">
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#produtos">Produto</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
         <div class="conteudo">
             <h1> Bem-vindo ao Brechó-Online </h1>
+
+
+            <div class="subtitulo">
+                <h2>Encontre roupas e acessórios com preços acessíveis!</h2>
+            </div>
+
+            <div class="produtos">
+                <h3> PRODUTOS</h3>
+            </div>
         </div>
 
-        <div class="subtitulo"> 
-            <h2>Encontre roupas e acessórios com preços acessíveis!</h2> 
-        </div>
+        <section id="produtos">
+            <div class="carrosel">
+                <div class="block">
+                    <div class="imagem">
+                        <img src="Brincoo.png">
+                    </div>
+                    <div class="descricao">
+                        <br>
+                        <p> Brinco</p> <br>
+                        <br>
+                        <p> R$500</p> <br>
+                        <br> <button>Comprar</button> <br>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imagem">
+                        <img src="Camisa.png">
+                    </div>
+                    <div class="descricao">
+                        <br>
+                        <p>Camisa Normal</p> <br>
+                        <br>
+                        <p>R$220,00</p> <br>
+                        <br> <button>Comprar</button> <br>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="imagem">
+                        <img src="Camiseta futvolei.png">
+                    </div>
+                    <div class="descricao">
+                        <br>
+                        <p>Camisa de futvolei</p> <br>
+                        <br>
+                        <p>R$180,00</p> <br>
+                        <br><button>Comprar</button> <br>
+                    </div>
+                </div>
+            </div>
 
-        <div class="produtos">
-            <h3> PRODUTOS</h3>
-         </div> 
+            <div class="carrosel">
+                <div class="block">
+                    <div class="imagem">
+                        <img src="Pulseira.png">
+                    </div>
+                    <div class="descricao">
+                        <br>
+                        <p>Pulseira de Aço</p> <br>
+                        <br>
+                        <p>R$95,00</p> <br>
+                        <br> <button>Comprar</button> <br>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="imagem">
+                        <img src="Shortss.png">
+                    </div>
+                    <div class="descricao">
+                        <br>
+                        <p>Bermuda</p> <br>
+                        <br>
+                        <p>R$120,00</p> <br>
+                        <br> <button>Comprar</button> <br>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="imagem">
+                        <img src="Shorts.png">
+                    </div>
+                    <div class="descricao">
+                        <br>
+                        <p>Bermuda de moletom</p> <br>
+                        <br>
+                        <p>R$100,00</p> <br>
+                        <br> <button>Comprar</button> <br>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="conteudo1">
+
+
+                <div class="quadrado">
+                    <div class="flexivel">
+                        <div class="carrosel">
+                            <img src="personagemroupa.png">
+                        </div>
+                        <div class="block1">
+                            <h1>Sobre nós</h1>
+
+                            <p>Somos um brechó online a oferecer roupas e acessórios de qualidade a preços acessíveis.
+                                Nossa missão é proporcionar uma experiencia de compra única, onde você pode encontrar
+                                peças exclusivas e estilosas sem gastar muito. Fundado em 2025. O Brechó Online nasceu
+                                de
+                                uma paixão por moda sustentável e do desejo de tornar a moda acessível a todos.
+                                Acreditamos que cada peça de roupa tem uma historia para contar e queremos ajudar você a
+                                encontrar a próxima peça favorita de seu guarda-roupa. Nosso compromisso é com a
+                                qualidade a satisfação dos nossos clientes. Trabalhamos arduamente para selecionar os
+                                melhores produtos garantir que cada compro seja uma experiencia agradável e segura.
+                                Junte-se a nós nessa jornada de moda consciente e descubra o prazer de comprar de forma
+                                inteligente e sustentável. Bem-vindo ao Brecho Online
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contato">
+            <div id="formulario_contato">
+                <h2>Contato</h2>
+                <form action="" method="post">
+                    <label for="nome"> Nome: </label><br>
+                    <input type="text" id="nome" name="nome" required> <br>
+                    <label for="email"></label> Email:</label><br>
+                    <input type="email" id="email" name="email" required> <br>
+                    <label for="mensagem"></label> Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" required> </textarea><br>
+                    <button type="submit"> Enviar</button>
+                </form>
+            </div>
+        </section>
     </main>
-
-
-    <main> 
-        <div class="conteudo1">
-        <h4> Sobre nós</h4>
-        <p> ........ </p>
-        </div>
-    </main>
-
-            <footer class="rodape">
-                <p>&copy; 2025 Brechó Online. Todos os direitos reservados.</p>
-            </footer>
+    <footer class="rodape">
+        <p>&copy; 2025 Brechó Online. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
